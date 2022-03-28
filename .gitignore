@@ -1,0 +1,13 @@
+node_modules/
+yarn-error.log
+yarn.lock
+yarn.log
+yarn.log.verbose
+yarn.log.warn
+yarn.log.warn.verbose
+yarn.log.warn.verbose.verbose
+yarn.log.warn.verbose.verbose.verbose
+.env
+
+.env.development
+.env.development.local
