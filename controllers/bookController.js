@@ -56,7 +56,7 @@ const deleteBook = asyncHandler(async (req, res) => {
 });
 // get logged in user's books
 const getUserBooks = asyncHandler(async (req, res) => {
-  const books = await Book.find({ user: req.user._id }).populate("user");
+  const books = await Book.find({ user: req.body }).populate("user");
   res.status(200).json(books);
 });
 
